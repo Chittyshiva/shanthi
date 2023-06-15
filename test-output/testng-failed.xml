@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="TestngExamples.Exp_WD_Testng1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc001"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- TestngExamples.Exp_WD_Testng1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
